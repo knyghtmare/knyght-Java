@@ -3,60 +3,34 @@ import java.util.Scanner;
 public class methods {
     public static void main(String [] args) {
         // code here
-        sayHi("Knyght");
 
-        // better calculator
-        double resultadd = addNumbers(88.00, 2.00);
-        System.out.println(resultadd);
+        Scanner keyboardInput = new Scanner(System.in);
 
-        Scanner calculatorInput = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        double number1 = calculatorInput.nextDouble();
-
-        // System.out.print("Enter operator: ");
-        // String operator = calculatorInput.nextLine();
+        System.out.print("Enter num1: ");
+        double num1 = keyboardInput.nextDouble(); // .nextDouble(), .nextInt()
 
         System.out.print("Enter Operator: ");
-        String op = calculatorInput.nextLine();
- 
-        System.out.println();
-        
-        System.out.print("Enter a second numer: ");
-        double number2 = calculatorInput.nextDouble();
+        String op = keyboardInput.nextLine();
 
-        double result = 0.0;
+        System.out.print("Enter num2: ");
+        double num2 = keyboardInput.nextDouble();
 
-        if (op == "+") 
-        {
-            result = addNumbers(number1, number2);
-            System.out.println("Addtion: ");
-        } 
-        else if (op == "-") 
-        {
-            result = subNumbers(number1, number2);
-            System.out.println("Difference: ");
-        } 
-        else if (op == "*") 
-        {
-            result = product(number1, number2);
-            System.out.println("Product: ");
-        } 
-        else if (op == "/") 
-        {
-            result = divide(number1, number2);
-            System.out.println("Quotient: ");
-        } 
-        else 
-        {
-            System.out.println("Inavlid Operator!");
+        if (op.equals("+")) {
+            System.out.println(num1 + num2);
+        } else if (op.equals("-")) {
+            System.out.println(num1 - num2);
+        } else if (op.equals("/")) {
+            System.out.println(num1 / num2);
+        } else if (op.equals("*")) {
+            System.out.println(num1 * num2);
+        } else {
+            System.out.println("Invalid Operator");
         }
 
-        System.out.println(result);
-
-        calculatorInput.close();
+        // System.out.println(num1 + num2);
+        keyboardInput.close();
     }
-
+    /*
     public static double addNumbers(double num1, double num2) {
         return num1 + num2;
     }
@@ -76,4 +50,5 @@ public class methods {
     public static void sayHi(String name) {
         System.out.println("Hi, " + name + "!");
     }
+    */
 }
