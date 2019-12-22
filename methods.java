@@ -2,32 +2,27 @@ import java.util.Scanner;
 
 public class methods {
     public static void main(String [] args) {
-        // code here
-
         Scanner keyboardInput = new Scanner(System.in);
 
-        System.out.print("Enter num1: ");
-        double num1 = keyboardInput.nextDouble(); // .nextDouble(), .nextInt()
+        System.out.print("Enter number 1: ");
+        double number1 = keyboardInput.nextDouble();
+        System.out.print("Enter the operation: ");
+        String operation = keyboardInput.next();
+        System.out.print("Enter number 2: ");
+        double number2 = keyboardInput.nextDouble();
 
-        System.out.print("Enter Operator: ");
-        String op = keyboardInput.nextLine();
-
-        System.out.print("Enter num2: ");
-        double num2 = keyboardInput.nextDouble();
-
-        if (op.equals("+")) {
-            System.out.println(num1 + num2);
-        } else if (op.equals("-")) {
-            System.out.println(num1 - num2);
-        } else if (op.equals("/")) {
-            System.out.println(num1 / num2);
-        } else if (op.equals("*")) {
-            System.out.println(num1 * num2);
+        if (operation.equals("+")) {
+            System.out.println(number1 + number2);
+        } else if (operation.equals("-")) {
+            System.out.println(number2 - number1);
+        } else if (operation.equals("*")) {
+            System.out.println(number1 * number2);
+        } else if (operation.equals("/")) {
+            System.out.println(number2 / number1);
         } else {
-            System.out.println("Invalid Operator");
+            System.out.println("Invalid Operator!");
         }
 
-        // System.out.println(num1 + num2);
         keyboardInput.close();
     }
     /*
