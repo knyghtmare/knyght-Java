@@ -2,6 +2,75 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - methods",
+            "request": "launch",
+            "mainClass": "methods"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - methods",
+            "request": "launch",
+            "mainClass": "methods",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - arrays",
+            "request": "launch",
+            "mainClass": "arrays",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inputfromuser",
+            "request": "launch",
+            "mainClass": "inputfromuser",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - numbers",
+            "request": "launch",
+            "mainClass": "numbers",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Numbers",
+            "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - strings",
+            "request": "launch",
+            "mainClass": "strings",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - datatypes",
+            "request": "launch",
+            "mainClass": "datatypes",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - appvariables",
+            "request": "launch",
+            "mainClass": "appvariables",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AppTwo",
+            "request": "launch",
+            "mainClass": "AppTwo",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - App",
             "request": "launch",
             "mainClass": "App",
