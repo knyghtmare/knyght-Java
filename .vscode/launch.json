@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - week",
+            "request": "launch",
+            "mainClass": "week"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - methods",
             "request": "launch",
             "mainClass": "methods"
