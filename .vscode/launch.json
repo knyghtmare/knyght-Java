@@ -2,6 +2,42 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - objects",
+            "request": "launch",
+            "mainClass": "objects"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - tryandcatch",
+            "request": "launch",
+            "mainClass": "tryandcatch"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - nestedloop",
+            "request": "launch",
+            "mainClass": "nestedloop"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - forloops",
+            "request": "launch",
+            "mainClass": "forloops"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - guessing",
+            "request": "launch",
+            "mainClass": "guessing"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - loops",
+            "request": "launch",
+            "mainClass": "loops"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - week",
             "request": "launch",
             "mainClass": "week"
