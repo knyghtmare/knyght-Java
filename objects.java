@@ -11,10 +11,12 @@ public class objects {
 
         // System.out.println(myStudent.onProbation);
 
-        Book myBook = new Book();
+        Book myBook = new Book("Lord of the Rings", "Tolkien", 1000);
+        /*
         myBook.title = "Lord of the Rings";
         myBook.pages = 1000;
         myBook.author = "Tolkien";
+        */
 
         System.out.println(myBook.title);
     }
