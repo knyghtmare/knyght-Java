@@ -9,6 +9,13 @@ public class objects {
         myStudent.age = 23;
         myStudent.onProbation = false;
 
-        System.out.println(myStudent.onProbation);
+        // System.out.println(myStudent.onProbation);
+
+        Book myBook = new Book();
+        myBook.title = "Lord of the Rings";
+        myBook.pages = 1000;
+        myBook.author = "Tolkien";
+
+        System.out.println(myBook.title);
     }
 }
