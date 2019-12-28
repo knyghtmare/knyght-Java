@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - animalapp",
+            "request": "launch",
+            "mainClass": "animalapp",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - inheritance",
+            "request": "launch",
+            "mainClass": "inheritance",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - getandset",
+            "request": "launch",
+            "mainClass": "getandset",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - quiz",
             "request": "launch",
             "mainClass": "quiz"
