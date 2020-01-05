@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "knyght-Java_f7ddcc29"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - animalapp",
             "request": "launch",
             "mainClass": "animalapp",
